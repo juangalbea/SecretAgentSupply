@@ -81,6 +81,10 @@ nav {
   color: white;
 }
 
+.menu {
+  display: none;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -155,7 +159,7 @@ nav {
 }
 
 
-.container 2 {
+.second {
   padding-bottom: 4rem;
 }
 /*footer*/
@@ -178,7 +182,47 @@ footer span {
   .glasses {
     display: none;
   }
+
   .boxes {
     width: 47%;
+  }
+
+  .navigation span {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .watch {
+    display: none;
+  }
+
+  .boxes {
+    width: 90%;
+  }
+
+  .container {
+    justify-content: center;
+  }
+
+  footer span {
+    display: flex;
+    justify-content: center;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description {
+    width: 90%;
   }
 }
