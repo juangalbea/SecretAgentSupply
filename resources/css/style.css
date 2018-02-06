@@ -97,7 +97,6 @@ nav {
 }
 
 .content {
-  height: 500px;
   width: 960px;
   display: flex;
   flex-direction: column;
