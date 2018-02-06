@@ -178,4 +178,7 @@ footer span {
   .glasses {
     display: none;
   }
+  .boxes {
+    width: 47%;
+  }
 }
